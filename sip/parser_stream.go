@@ -166,12 +166,14 @@ func (p *ParserStream) ParseSIPStream(data []byte) (msgs []Message, err error) {
 		case ErrParseLineNoCRLF, ErrParseReadBodyIncomplete:
 			reader.Reset()
 			reader.Write(unparsed)
-			// return nil, ErrParseSipPartial
-			return msgs, nil
+			if len(msgs) > 0 {
+				return msgs, nil
+			}
+			return nil, ErrParseSipPartial
 		}
 
 		if err != nil {
-			return nil, err
+			return msgs, err
 		}
 
 		msgs = append(msgs, msg)
