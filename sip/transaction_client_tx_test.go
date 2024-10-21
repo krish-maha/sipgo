@@ -7,7 +7,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/emiago/sipgo/fakes"
+	"github.com/krish-maha/sipgo/fakes"
 	"github.com/rs/zerolog/log"
 	"github.com/stretchr/testify/require"
 )

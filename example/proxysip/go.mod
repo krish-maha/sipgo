@@ -1,12 +1,12 @@
-module github.com/emiago/sipgo/example/proxysip
+module github.com/krish-maha/sipgo/example/proxysip
 
 go 1.21.1
 
-replace github.com/emiago/sipgo => ../../
+replace github.com/krish-maha/sipgo => ../../
 
 require (
 	github.com/arl/statsviz v0.6.0
-	github.com/emiago/sipgo v0.23.1-0.20240913054121-597f4c4406dd
+	github.com/krish-maha/sipgo v0.23.1-0.20240913054121-597f4c4406dd
 	github.com/prometheus/client_golang v1.17.0
 	github.com/rs/zerolog v1.32.0
 	github.com/sirupsen/logrus v1.9.3

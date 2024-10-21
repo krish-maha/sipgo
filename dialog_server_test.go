@@ -4,7 +4,7 @@ import (
 	"context"
 	"testing"
 
-	"github.com/emiago/sipgo/sip"
+	"github.com/krish-maha/sipgo/sip"
 	"github.com/rs/zerolog/log"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"

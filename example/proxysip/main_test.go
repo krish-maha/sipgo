@@ -9,8 +9,8 @@ import (
 	"testing"
 	"time"
 
-	"github.com/emiago/sipgo/fakes"
-	"github.com/emiago/sipgo/sip"
+	"github.com/krish-maha/sipgo/fakes"
+	"github.com/krish-maha/sipgo/sip"
 
 	"github.com/rs/zerolog"
 	"github.com/rs/zerolog/log"

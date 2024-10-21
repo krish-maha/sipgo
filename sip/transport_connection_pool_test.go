@@ -4,7 +4,7 @@ import (
 	"net"
 	"testing"
 
-	"github.com/emiago/sipgo/fakes"
+	"github.com/krish-maha/sipgo/fakes"
 	"github.com/rs/zerolog"
 	"github.com/rs/zerolog/log"
 )

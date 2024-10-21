@@ -7,8 +7,8 @@ import (
 	"sync"
 	"time"
 
-	"github.com/emiago/sipgo/sip"
 	"github.com/icholy/digest"
+	"github.com/krish-maha/sipgo/sip"
 )
 
 type DialogClientSession struct {

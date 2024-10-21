@@ -1,9 +1,9 @@
 <img src="icons/icon.png" width="300" alt="SIPGO">
 
-[![Go Report Card](https://goreportcard.com/badge/github.com/emiago/sipgo)](https://goreportcard.com/report/github.com/emiago/sipgo)
-![Used By](https://sourcegraph.com/github.com/emiago/sipgo/-/badge.svg)
+[![Go Report Card](https://goreportcard.com/badge/github.com/krish-maha/sipgo)](https://goreportcard.com/report/github.com/krish-maha/sipgo)
+![Used By](https://sourcegraph.com/github.com/krish-maha/sipgo/-/badge.svg)
 ![Coverage](https://img.shields.io/badge/coverage-47.0%25-blue)
-[![License](https://img.shields.io/badge/License-BSD_2--Clause-orange.svg)](https://github.com/emiago/sipgo/LICENCE) 
+[![License](https://img.shields.io/badge/License-BSD_2--Clause-orange.svg)](https://github.com/krish-maha/sipgo/LICENCE) 
 ![GitHub go.mod Go version](https://img.shields.io/github/go-mod/go-version/emiago/sipgo)
 
 **SIPGO** is library for writing fast SIP services in GO language.  
@@ -18,18 +18,18 @@ It comes with [SIP stack](/sip/README.md) ([RFC 3261](https://datatracker.ietf.o
 
 **Libs on top of sipgo:**
 - ***diago*** [github.com/emiago/diago](https://github.com/emiago/diago): Full VOIP library/framework with media stack 
-- ***sipgox*** [github.com/emiago/sipgox](https://github.com/emiago/sipgox): Fast building SIP phone or SIP helpers (It is recomended to switch to **Diago**)
+- ***sipgox*** [github.com/krish-maha/sipgox](https://github.com/krish-maha/sipgox): Fast building SIP phone or SIP helpers (It is recomended to switch to **Diago**)
 
 Fetch lib with:
 
-`go get github.com/emiago/sipgo`
+`go get github.com/krish-maha/sipgo`
 
 
 If you like/use project currently and looking for support/sponsoring  checkout [Support section](#support)  
 
 You can follow on [X/Twitter](https://twitter.com/emiago123) for more updates.
 
-More on documentation you can find on [Go doc](https://pkg.go.dev/github.com/emiago/sipgo)
+More on documentation you can find on [Go doc](https://pkg.go.dev/github.com/krish-maha/sipgo)
 
 ## Supported protocols
 
@@ -43,7 +43,7 @@ More on documentation you can find on [Go doc](https://pkg.go.dev/github.com/emi
 
 - Stateful proxy [example/proxysip](example/proxysip)  
 - Register with authentication [example/register](example/register)  
-- RTP echo with sipgox [example/dialog](https://github.com/emiago/sipgox/tree/main/echome)
+- RTP echo with sipgox [example/dialog](https://github.com/krish-maha/sipgox/tree/main/echome)
 
 Also thanks to [pion](https://github.com/pion/webrtc) project sharing this example of using SIPgo with webrtc:
 - https://github.com/pion/example-webrtc-applications/tree/master/sip-to-webrtc  original post [on X](https://twitter.com/_pion/status/1742955942314913958)
@@ -339,7 +339,7 @@ Content-Length:  0
 If you find this project interesting for bigger support or consulting, you can contact me on
 [mail](mailto:emirfreelance91@gmail.com)
 
-For bugs features pls create [issue](https://github.com/emiago/sipgo/issues).
+For bugs features pls create [issue](https://github.com/krish-maha/sipgo/issues).
 
 
 ## Extra
@@ -348,7 +348,7 @@ For bugs features pls create [issue](https://github.com/emiago/sipgo/issues).
 ### E2E/integration testing
 
 If you are interested using lib for your testing services then checkout 
-[article on how easy you can make calls and other](https://github.com/emiago/sipgo/wiki/E2E-testing)
+[article on how easy you can make calls and other](https://github.com/krish-maha/sipgo/wiki/E2E-testing)
 
 
 ### Tests
