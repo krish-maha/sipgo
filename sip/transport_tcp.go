@@ -183,7 +183,7 @@ func (t *transportTCP) readConnection(conn *TCPConnection, laddr string, raddr s
 
 func (t *transportTCP) parseStream(par *ParserStream, data []byte, src string, handler MessageHandler) {
 	msgs, err := par.ParseSIPStream(data)
-	if err != nil {
+	if err != ErrParseSipPartial && err != nil {
 		t.log.Error().Err(err).Str("data", string(data)).Msg("failed to parse")
 	}
 
